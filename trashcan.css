@@ -1,10 +1,32 @@
 body {
     color: white;
     background-color: black;
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: "Source Code Pro", sans-serif;
     text-align: center;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: grey;
+}
+
+::selection {
+    color: white;
+    background: grey;
 }
 
 h6 {
     margin-top: 100000px;
 }
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.dark-mode {
+    color: black;
+    background-color: white;
+}
+  
